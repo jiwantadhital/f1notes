@@ -24,7 +24,7 @@ class EmptyData extends StatelessWidget {
           Image.asset("assets/images/no_data.png",scale: 2,),
           SizedBox(height: 10,),
           CustomText(text: text,fontSize: 18,weight: FontWeight.w400,),
-          SizedBox(height: 15,),
+          const SizedBox(height: 15,),
           if(hasRetry == true)...[
             CustomButton(text: "Retry",onPress: onTap,)
           ]

@@ -53,7 +53,6 @@ class NoteNotifier extends StateNotifier<AsyncValue<List<Note>>> {
     state = const AsyncValue.loading();
       _loadNotes();
     } catch (error) {
-      print(error);
       state = AsyncValue.error(error.toString(),StackTrace.current);
     }
   }

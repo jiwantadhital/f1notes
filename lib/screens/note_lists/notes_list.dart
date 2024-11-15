@@ -27,7 +27,7 @@ class NotesList extends ConsumerWidget {
     );
   }
 
-  /// Builds the AppBar for the NotesList screen.
+  //AppBar for the NotesList screen.
   AppBar _buildAppBar(BuildContext context) {
     return AppBar(
       title:  CustomText(
@@ -45,7 +45,7 @@ class NotesList extends ConsumerWidget {
     );
   }
 
-  /// Builds the SearchBox inside the AppBar.
+  //SearchBox inside the AppBar.
   Widget _buildSearchBox() {
     return Padding(
       padding: const EdgeInsets.all(10),
@@ -89,7 +89,7 @@ class NotesList extends ConsumerWidget {
     );
   }
 
-  /// Builds the TabBar for the NotesList screen.
+  //TabBar for the NotesList screen.
    _buildTabBar(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(8.0),
@@ -110,7 +110,7 @@ class NotesList extends ConsumerWidget {
     );
   }
 
-  /// Builds the TabBarView for displaying the Active and Expired notes.
+  //TabBarView for displaying the Active and Expired notes.
   Widget _buildTabBarView(
     WidgetRef ref,
     AsyncValue<List<Note>> localNoteData,
@@ -138,7 +138,7 @@ class NotesList extends ConsumerWidget {
     );
   }
 
-  /// Builds the FloatingActionButton for adding new notes.
+  //FloatingActionButton for adding new notes.
   FloatingActionButton _buildFloatingActionButton(BuildContext context) {
     return FloatingActionButton.extended(
       onPressed: () {

@@ -106,7 +106,7 @@ class _AddNotesBottomSheetState extends ConsumerState<AddNotesBottomSheet> {
           width: size.width * 0.18,
           child: CustomButton(
             icon: Icons.qr_code_2_rounded,
-            border: 20.0,
+            borderRadius: 20.0,
             onPress: () {
               Navigator.pushReplacement(
                 context,

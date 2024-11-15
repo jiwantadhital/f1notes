@@ -16,7 +16,6 @@ class Note extends HiveObject {
   @HiveField(3)
   DateTime dueDate;
 
-  // Constructor with optional dueDate; defaults to 3 days after addedDate if not provided
   Note({
     required this.title,
     required this.description,

@@ -44,7 +44,7 @@ class ActiveTabData extends StatelessWidget {
     );
   }
 
-  // Builds the local notes section.
+  //local notes section.
   Widget _buildLocalNotesSection() {
     return localNoteData.when(
       data: (notes) {
@@ -60,7 +60,7 @@ class ActiveTabData extends StatelessWidget {
     );
   }
 
-  // Builds the synced firebase notes section.
+  //synced firebase notes section.
   Widget _buildFirebaseNotesSection(BuildContext context) {
     return firebaseNoteData.when(
       data: (notes) {
@@ -86,7 +86,7 @@ class ActiveTabData extends StatelessWidget {
     );
   }
 
-  // Displays the "Load Synced Data".
+  //"Load Synced Data".
   Widget _buildSyncedNotesEmptyState(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,

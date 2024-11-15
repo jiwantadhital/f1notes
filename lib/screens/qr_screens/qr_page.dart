@@ -2,8 +2,6 @@ import 'dart:convert';
 import 'package:f1notes/data/model/note.dart';
 import 'package:f1notes/data/provider/note_provider.dart';
 import 'package:f1notes/resources/extracted_functions/extracted_functions.dart';
-import 'package:f1notes/resources/extracted_widgets/custom_button.dart';
-import 'package:f1notes/resources/extracted_widgets/custom_text.dart';
 import 'package:f1notes/resources/extracted_widgets/inkwell.dart';
 import 'package:f1notes/screens/qr_screens/scanner_parts.dart';
 import 'package:flutter/material.dart';
@@ -45,7 +43,6 @@ class _QrScannerPageState extends ConsumerState<QrScannerPage> {
     setState(() {});
   }
 
-  // QR view creation handler
   void _onQRViewCreated(BarcodeCapture qrData) {
     setState(() {
       resultCode = qrData.barcodes.first.displayValue;

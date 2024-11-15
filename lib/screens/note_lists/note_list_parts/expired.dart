@@ -1,6 +1,5 @@
 import 'package:f1notes/data/provider/firebase_note_provider.dart';
 import 'package:f1notes/resources/extracted_widgets/custom_button.dart';
-import 'package:f1notes/resources/extracted_widgets/custom_text.dart';
 import 'package:f1notes/resources/extracted_widgets/empty_retry/empty.dart';
 import 'package:f1notes/screens/note_lists/note_list_parts/note_list_builder.dart';
 import 'package:flutter/material.dart';
